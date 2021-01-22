@@ -1,0 +1,146 @@
+.page-header{
+    width:1170px;
+    margin: 0 auto;
+    
+}
+
+.our-work img{
+    margin:0;
+    padding: 0;
+    margin-top:129px;
+}
+.our-work-h2{
+  margin-top: 15px;  
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 51px;
+
+}
+
+.our-work-group{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.our-work-group-element1{
+    margin: 0;
+    padding:0;
+    width: 370px;
+    margin-bottom: 30px;
+    
+}
+
+.our-work-group-element1:hover .lupa{
+    display: block;
+}
+.our-work-group-element1 img{
+    display: block;
+    border-radius: 2px;
+
+}
+
+.lupa{
+  
+    display: none;
+    position: absolute;
+    top:35%;
+    left: auto;
+}
+
+
+.our-work-group-element1:hover{
+    
+    color: #3685EE;
+    border-bottom: 2px solid #3685EE;
+    
+  
+}
+
+.our-work-group-deskription{
+margin: 0;    
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+padding-left:30px;
+padding-top: 20px;
+padding-bottom: 21px;
+border-radius: 2px;
+}
+
+@media (max-width: 1024px){
+    .page-header{
+        width:770px;
+        margin: 0 auto;
+        
+    }
+}
+
+
+@media (max-width: 768px){
+    .page-header{
+        width:718px;
+        margin: 0 auto;
+        
+    }
+
+    .our-work-group-element1{
+        width: 345px;
+    }
+
+    .our-work-group-element1 img{
+        display: block;
+        border-radius: 2px;
+        width: 345px;
+    
+    }
+    .lupa img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .our-work-group-deskription{
+        padding-left:30px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+}
+
+@media (max-width: 520px){
+
+    .page-header{
+        width:280px;
+        margin: 0 auto;
+        
+    }
+    
+
+    .our-work-group-element1{
+        width: 280px;
+    }
+
+    .our-work-group-element1 img{
+        display: block;
+        border-radius: 2px;
+        width: 280px;
+        height: 206px;
+    
+    }
+    .lupa img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .our-work-group-deskription{
+        font-size: 14px;
+        padding-left:25px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+}
